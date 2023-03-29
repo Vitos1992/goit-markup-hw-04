@@ -37,10 +37,11 @@ img {
 
 /* ------------------------Header Web Studio------------------------ */
 
-.page-header{
+.page-header {
   border-bottom: 1px solid #E7E9FC;
 
 }
+
 .contener-header {
   display: flex;
   justify-content: space-between;
@@ -168,6 +169,13 @@ img {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+      ),
+    url(../images/people-office.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .item {
@@ -304,9 +312,21 @@ img {
   margin-right: 0;
 }
 
-.fr-list{
+.fr-list {
   max-width: 264px;
 }
+
+.features-list-img{
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .features {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -322,7 +342,7 @@ img {
   margin-bottom: 8px;
 }
 
-.bott{
+.bott {
   letter-spacing: 0.017em;
 }
 
@@ -413,6 +433,7 @@ img {
   font-weight: 400;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .specialtys {
@@ -425,6 +446,40 @@ img {
   letter-spacing: 0.02em;
   text-transform: none;
   margin-left: 16px;
+
+}
+
+.webstudio-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+}
+
+.web-soc-item {
+  width: 40px;
+  height: 40px;
+
+}
+
+.web-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+
+}
+
+.soc-svg-item {
+fill: #F4F4FD;
+}
+
+.web-soc-link:hover,
+.web-soc-link:focus{
+  background-color: #404BBF;
 }
 
 .foons {
@@ -443,8 +498,45 @@ img {
   margin-right: 0;
 }
 
+.icon-foons {
+  display: flex;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+/* ------------------------------------customers--------------------------------------------------------------- */
+.customers-team{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
-/* -----------------------footer -----------------------------*/
+.customers-logo-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+}
+.costumers-logo-item{
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+
+}
+.logo-link{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* -------------------------------------------------footer -----------------------------*/
 
 .footer {
   background-color: #2E2F42;
