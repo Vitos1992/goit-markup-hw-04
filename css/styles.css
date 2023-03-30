@@ -165,17 +165,19 @@ img {
 /* --------------------------Main---------------------------------------- */
 
 .items {
+  width: 1440px;
   background-color: #2E2F42;
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-      ),
+      rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item {
@@ -316,7 +318,7 @@ img {
   max-width: 264px;
 }
 
-.features-list-img{
+.features-list-img {
   background-color: #F4F4FD;
   border-radius: 4px;
   width: 264px;
@@ -459,6 +461,7 @@ img {
 .web-soc-item {
   width: 40px;
   height: 40px;
+  
 
 }
 
@@ -474,11 +477,11 @@ img {
 }
 
 .soc-svg-item {
-fill: #F4F4FD;
+  fill: #F4F4FD;
 }
 
 .web-soc-link:hover,
-.web-soc-link:focus{
+.web-soc-link:focus {
   background-color: #404BBF;
 }
 
@@ -507,33 +510,49 @@ fill: #F4F4FD;
   width: 40px;
   height: 40px;
 }
-/* ------------------------------------customers--------------------------------------------------------------- */
-.customers-team{
+
+/* ------------------------------customers--------------------------------------------------------------- */
+.customers-team {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.customers-logo-list{
+.customers-logo-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
 
 }
-.costumers-logo-item{
+
+.costumers-logo-item {
   width: 168px;
   height: 88px;
   border: 1px solid #8E8F99;
   border-radius: 4px;
-
 }
-.logo-link{
-  width: 100%;
-  height: 100%;
+
+.costumers-logo-item:hover{ 
+  border: 1px solid #404BBF;
+}
+
+
+
+.logo-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
+}
 
+.icon-logo-company:hover .icon-logo-soc,
+.icon-logo-company:focus .icon-logo-soc{
+  fill: #404BBF;
+}
+
+.icon-logo-soc {
+  fill: #8E8F99;
 }
 
 /* -------------------------------------------------footer -----------------------------*/
