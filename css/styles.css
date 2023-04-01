@@ -461,7 +461,7 @@ img {
 .web-soc-item {
   width: 40px;
   height: 40px;
-  
+
 
 }
 
@@ -532,7 +532,7 @@ img {
   border-radius: 4px;
 }
 
-.costumers-logo-item:hover{ 
+.costumers-logo-item:hover {
   border: 1px solid #404BBF;
 }
 
@@ -547,7 +547,7 @@ img {
 }
 
 .icon-logo-company:hover .icon-logo-soc,
-.icon-logo-company:focus .icon-logo-soc{
+.icon-logo-company:focus .icon-logo-soc {
   fill: #404BBF;
 }
 
@@ -582,4 +582,27 @@ img {
 
 .list-portfolio {
   list-style: none;
+}
+
+.footer-social {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+
+}
+
+.footer-wrap{
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+.social-list{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  
 }
