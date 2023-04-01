@@ -265,12 +265,25 @@ img {
   padding-left: 8px;
 }
 
+.box-foons:hover,
+.box-foons:focus {
+  border: 1px solid #F4F4FD;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  ;
+}
+
 .box-foons-img {
   padding-top: 32px;
   padding-bottom: 32px;
   border: 1px solid #E7E9FC;
   border-top: none;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  ;
 }
 
 .box-list {
@@ -377,6 +390,10 @@ img {
   margin-bottom: 72px;
 }
 
+.imeges{
+  border: 1px solid #E7E9FC;
+}
+
 .contener-main {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -461,8 +478,6 @@ img {
 .web-soc-item {
   width: 40px;
   height: 40px;
-
-
 }
 
 .web-soc-link {
@@ -563,6 +578,17 @@ img {
   padding-bottom: 100px;
 }
 
+.blok {
+  margin-right: 120px;
+  width: auto;
+
+}
+
+.blok-wrap {
+  display: flex;
+
+}
+
 .text {
   color: #F4F4FD;
   font-size: 16px;
@@ -573,6 +599,7 @@ img {
 
 .logo-studio {
   margin-bottom: 16px;
+  width: auto;
 }
 
 
@@ -596,13 +623,15 @@ img {
 
 }
 
-.footer-wrap{
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+.footer-wrap {
+  display: inline-block;
+  width: auto;
+
 }
-.social-list{
+
+.social-list {
   display: flex;
   justify-content: center;
   gap: 16px;
-  
+
 }
