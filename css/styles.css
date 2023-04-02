@@ -551,7 +551,8 @@ img {
   border-radius: 4px;
 }
 
-.costumers-logo-item:hover {
+.costumers-logo-item:hover,
+.costumers-logo-item:focus {
   border: 1px solid #404BBF;
 }
 
@@ -565,12 +566,17 @@ img {
   height: 100%;
 }
 
+.icon-logo-company{
+  padding: 16px 32px;
+}
+
 .icon-logo-company:hover .icon-logo-soc,
 .icon-logo-company:focus .icon-logo-soc {
   fill: #404BBF;
 }
 
 .icon-logo-soc {
+  
   fill: #8E8F99;
 }
 
